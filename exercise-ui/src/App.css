@@ -1,0 +1,76 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(131, 110, 124);
+  color: #81a0de;
+  margin: 6px;
+  padding: 3px;
+}
+
+tr, th {
+  border: 7px;
+  padding: 4px;
+  color: rgb(36, 210, 230);
+}
+
+tr, td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  color: #27ee9b;
+}
+
+input {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  border-radius: 25px;
+  background-color: #81a0de;
+  min-height: 25vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Might not be doing anything */
+.App-nav { 
+  size: 20px;
+}
+
+/* Might not need this */
+.order-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 2rem;
+  color: rgb(66, 6, 179);
+}
+
+.homepage-table {
+  border-radius: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
