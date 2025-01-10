@@ -1,0 +1,6 @@
+/node_modules/
+/.vscode
+
+# Environment variables & local credentials
+.env
+credentials/

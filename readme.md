@@ -1,5 +1,7 @@
 # Lift Logger (MERN Stack)
 
+NOTE: I am currently rewriting the backend from NodeJS to Go (using Gin).
+
 A full-stack workout tracking application built with the **MERN** stack (MongoDB, Express, React, Node.js). This app allows users to log, view, update, and delete their workouts using a **RESTful API** backend and a dynamic **React** frontend.
 
 ## Key Features

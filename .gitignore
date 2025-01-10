@@ -1,0 +1,90 @@
+# Golang specific
+# Ignore the binary build artifacts for Go
+/bin/
+/.obj/
+/vendor/
+*.exe
+*.out
+*.test
+*.log
+*.db
+*.sqlite
+*.bak
+*.tmp
+
+# React (TypeScript) specific
+# Node modules and build output
+node_modules/
+build/
+dist/
+.eslintcache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript type declaration files (optional, depending on your setup)
+# TypeScript output folder (if you’re building your project before deployment)
+*.d.ts
+
+# .env and configuration files (important for secrets)
+# These might be environment-specific and should not be tracked
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Firebase specific
+# Ignore Firebase emulators and other local files
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# Docker specific
+# Ignore Docker build-related files and directories
+.docker/
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile.*
+
+# System/Editor specific
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# IDE specific (e.g., VSCode, JetBrains)
+.vscode/
+.idea/
+*.iml
+
+# npm package lock (if using npm instead of yarn)
+package-lock.json
+
+# Yarn lock file (if using yarn instead of npm)
+yarn.lock
+
+# Generated files
+npm-debug.log*
+yarn-debug.log*
+
+# TypeScript build directory (if you're building TypeScript before deployment)
+lib/
+out/
+
+# Ignore log files and test result directories
+*.log
+test-results/
+
+# General ignore for IDE specific files
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# Ignore build folders for client-side and server-side builds
+client/build/
+client/dist/
+server/build/
+server/dist/
